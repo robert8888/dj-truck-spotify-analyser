@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 80;
 app.use(cors());
 
 app.get("/", (req, res) =>{
-    res.send("test")
+    res.send("Spotify track analyses details for dj-truck record")
 })
 
 app.get('/getbpm', async (req, res) =>{
